@@ -4,8 +4,6 @@ pantalla = display.set_mode((700, 500))
 display.set_caption("juego")
 fondo = transform.scale(image.load('color1.png'),(700,500))
 
-#texto**
-
 
 class GameSprite(sprite.Sprite):
     
