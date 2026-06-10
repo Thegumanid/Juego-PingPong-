@@ -4,7 +4,6 @@ pantalla = display.set_mode((700, 500))
 display.set_caption("juego")
 fondo = transform.scale(image.load('color1.png'),(700,500))
 
-
 class GameSprite(sprite.Sprite):
     
     def __init__(self, velocidad, imagen, ancho, largo, posicionX, posicionY, jugadores):
